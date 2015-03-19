@@ -1,0 +1,13 @@
+README
+Pruthvi Desai
+
+1.	Python has been used for this project. Src folder has all files needed for project.
+	No dependencies are required but version 2.7 is recommended.
+
+2.	Python code doesn't need to be built, you can go ahead and run it.
+ 
+3.	The project code "Tokenizer.py" can be run by calling "python Tokenizer.py argument" 
+	where argument should be replaced by the input file, default will be p1-input.txt
+
+Note:	The default is set to frequency counter for part B, if want to print for part A uncomment
+		the last line in the code and comment the second to last line(frequency method).

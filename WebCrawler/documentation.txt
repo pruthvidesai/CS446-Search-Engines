@@ -1,0 +1,21 @@
+Pruthvi Desai
+2/4/2015
+
+import urllib2
+urllib2.Request(URL)
+	- get_full_url()
+		- gives the url passed in the constructor
+		- better option is geturl() from urllib2.urlopen(URL)
+	- get_selector()
+		- gives the current directory
+
+import urlparse
+urlparse.urlparse(URL)
+	- breaks a URL into 6 parts. Incredibly useful.
+	- variable.scheme = 'http'
+	- variable.netloc = 'www.pruthvi.me'
+	- variable.path = '/about'
+
+import re
+re.findall(pattern, string)
+	- return the part of string that matches a pattern
